@@ -1,0 +1,522 @@
+﻿Build started 1/14/2014 3:00:13 PM.
+     1>Project "C:\Users\Espinas\Documents\Visual Studio 2010\Projects\Interpreter\Interpreter\Interpreter.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Interpreter.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt interpreter.cpp
+         interpreter.cpp
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(29): warning C4091: 'typedef ' : ignored on left of 'line' when no variable is declared
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(37): warning C4091: 'typedef ' : ignored on left of 'word' when no variable is declared
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(42): warning C4091: 'typedef ' : ignored on left of 'virtualVar' when no variable is declared
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(47): warning C4091: 'typedef ' : ignored on left of 'asmLine' when no variable is declared
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(156): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(157): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(179): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(186): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(187): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(209): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(228): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(232): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(235): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(240): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(207): warning C4101: '_fullFIle' : unreferenced local variable
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(248): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(267): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(270): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(275): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(280): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(283): warning C4101: 'line' : unreferenced local variable
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(302): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(303): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(333): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(340): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(354): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(356): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(363): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(382): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(406): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(414): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(433): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(435): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(438): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(470): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(482): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(484): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(485): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(486): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(487): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(489): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(490): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(496): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(478): warning C4101: '_part2' : unreferenced local variable
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(512): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(513): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(517): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(527): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(528): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(529): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(530): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(557): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(577): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(597): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(603): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(611): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(613): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(617): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(638): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(680): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(687): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(699): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(712): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(724): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(739): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(752): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(764): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(782): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(891): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(946): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1087): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1090): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1096): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1111): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1120): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1128): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1130): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1143): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1149): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1151): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1165): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1272): warning C4806: '==' : unsafe operation: no value of type 'bool' promoted to type 'char' can equal the given constant
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1274): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1292): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1307): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1316): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1317): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1322): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1363): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1392): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1393): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1394): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1398): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1402): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1404): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1405): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1406): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1407): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1427): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1438): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1456): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1478): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1481): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1483): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1486): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1490): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1499): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1500): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1501): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1502): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1523): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1536): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1554): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1576): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1579): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1581): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1584): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1588): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1597): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1598): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1599): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1600): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1621): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1634): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1652): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1674): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1677): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1679): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1682): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1686): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1695): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1696): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1697): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1698): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1718): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1731): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1749): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1771): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1774): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1776): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1779): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1783): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1792): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1793): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1794): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1795): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1814): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1827): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1845): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1867): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1870): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1872): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1875): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1879): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1888): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1889): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1890): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1891): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1911): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1924): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1942): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1964): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1967): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1969): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1972): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1976): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1985): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1986): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1987): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1988): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2010): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2023): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2041): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2063): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2066): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2068): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2071): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2075): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2084): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2085): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2086): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2087): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2113): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2126): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2144): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2166): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2169): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2171): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2174): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2178): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2188): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2189): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2190): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2208): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2215): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2232): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2243): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2244): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2245): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2269): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2282): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2301): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2338): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2342): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2343): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2344): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2345): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2346): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2367): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2380): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2399): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2436): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2440): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2441): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2442): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2443): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2444): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2445): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2446): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2467): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2480): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2499): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2536): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2540): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2541): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2542): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2543): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2544): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2545): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2546): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2547): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2548): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2549): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2550): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2585): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2594): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2605): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2624): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2647): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2650): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2652): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2655): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2659): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2668): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2669): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2670): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2671): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2694): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2707): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2725): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2747): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2750): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2752): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2755): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2759): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2768): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2769): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2770): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2771): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2804): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2805): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2807): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2808): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2809): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2810): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2831): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2844): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2862): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2899): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2907): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2910): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2914): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2916): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2919): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2922): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2969): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2974): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(2994): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3012): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3049): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3054): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3055): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3056): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3075): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3093): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3130): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3135): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3136): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3137): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3159): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3167): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3189): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3232): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3234): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3236): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3238): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3252): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3272): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3298): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3314): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3319): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3334): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3354): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3358): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(3366): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\espinas\documents\visual studio 2010\projects\interpreter\interpreter\interpreter.cpp(1204): warning C4715: '_index' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Espinas\Documents\Visual Studio 2010\Projects\Interpreter\Debug\Interpreter.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Interpreter.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Espinas\Documents\Visual Studio 2010\Projects\Interpreter\Debug\Interpreter.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Espinas\Documents\Visual Studio 2010\Projects\Interpreter\Debug\Interpreter.lib" /MACHINE:X86 Debug\interpreter.obj
+         LINK : C:\Users\Espinas\Documents\Visual Studio 2010\Projects\Interpreter\Debug\Interpreter.exe not found or not built by the last incremental link; performing full link
+         Interpreter.vcxproj -> C:\Users\Espinas\Documents\Visual Studio 2010\Projects\Interpreter\Debug\Interpreter.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Espinas\Documents\Visual Studio 2010\Projects\Interpreter\Debug\Interpreter.exe;#1" /manifest Debug\Interpreter.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Interpreter.unsuccessfulbuild".
+         Touching "Debug\Interpreter.lastbuildstate".
+     1>Done Building Project "C:\Users\Espinas\Documents\Visual Studio 2010\Projects\Interpreter\Interpreter\Interpreter.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.96
