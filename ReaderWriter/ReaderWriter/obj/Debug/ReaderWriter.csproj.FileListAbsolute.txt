@@ -1,0 +1,5 @@
+c:\users\amini\documents\visual studio 2013\Projects\ReaderWriter\ReaderWriter\bin\Debug\ReaderWriter.exe.config
+c:\users\amini\documents\visual studio 2013\Projects\ReaderWriter\ReaderWriter\bin\Debug\ReaderWriter.exe
+c:\users\amini\documents\visual studio 2013\Projects\ReaderWriter\ReaderWriter\bin\Debug\ReaderWriter.pdb
+c:\users\amini\documents\visual studio 2013\Projects\ReaderWriter\ReaderWriter\obj\Debug\ReaderWriter.exe
+c:\users\amini\documents\visual studio 2013\Projects\ReaderWriter\ReaderWriter\obj\Debug\ReaderWriter.pdb
