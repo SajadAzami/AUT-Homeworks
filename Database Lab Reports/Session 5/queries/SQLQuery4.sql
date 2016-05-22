@@ -1,0 +1,1 @@
+disable trigger t1 on BOOK
