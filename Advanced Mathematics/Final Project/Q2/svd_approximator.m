@@ -34,10 +34,21 @@ for rank = ranks_to_be_tested
     errors(end+1) = sum(sum((input_image - approximated_image).^2));
 
 end
-disp('-----------');
-disp(ranks_to_be_tested);
-disp('-----------');
-disp(compression_ratios);
-disp('-----------');
-disp(errors);
+
+% Plot Rank vs Compression Ratio
+figure();
+title('Rank vs Compression Ratio');
+plot(ranks_to_be_tested, compression_ratios);
+grid on
+xlabel('Rank');
+ylabel('Compression Ratio');
+
+% Plot Rank vs Mean Square Error
+figure();
+title('Rank vs Mean Square Error');
+plot(ranks_to_be_tested, errors);
+grid on
+xlabel('Rank');
+ylabel('Mean Square Error');
+
 end
